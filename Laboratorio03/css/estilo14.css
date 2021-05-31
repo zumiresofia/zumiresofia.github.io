@@ -1,0 +1,156 @@
+li {
+  display: inline;
+}
+span {
+  display: block;
+}
+a {
+  display: block;
+}
+p span {
+  display: inline-block;
+  width: 25%;
+}
+.elementolista p {
+  display: list-item;
+  margin-left: 50px;
+}
+.contenedor {
+  display: table;
+  border-spacing: 10px;
+}
+.contenido {
+  display: table-row;
+}
+.secundario,
+.principal,
+.lateral {
+  display: table-cell;
+}
+.principal {
+  width: 60%;
+}
+.contenido,
+.lateral {
+  width: 20%;
+}
+.flexible {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: gainsboro;
+}
+.flexible p {
+  width: 25%px;
+  border: black 1px solid;
+  margin: 2px;
+}
+
+.flexible2 {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(204, 233, 98);
+}
+.flexible2 p {
+  width: 200px;
+  border: black 1px solid;
+  margin: 2px;
+}
+
+.flexible3 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(98, 161, 233);
+}
+.flexible3 p {
+  width: 200px;
+  border: black 1px solid;
+  margin: 2px;
+}
+
+.flexible4 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(98, 161, 233);
+}
+.flexible4 p {
+  width: 200px;
+  border: black 1px solid;
+  margin: 2px;
+}
+
+/* flex-wrap establece que todos los elementos de acuerdo a una selección */
+/* no-wrap establece que todos los elementos esten en ina linea */
+
+.flexible5 {
+  display: flex;
+  flex-wrap: no-wrap;
+  background-color: crimson;
+}
+.flexible5 p {
+  width: 200px;
+  border: black 1px solid;
+  margin: 2px;
+}
+
+/* wrap establece que todos los elementos se coloquen en varias lineas */
+
+.flexible6 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(98, 233, 222);
+}
+.flexible6 p {
+  width: 200px;
+  border: black 1px solid;
+  margin: 2px;
+}
+
+/* wrap-reverse establece que todos los elementos se coloquen en varias lineas pero de abajo hacia arriba */
+
+.flexible7 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: rgb(191, 66, 230);
+}
+.flexible7 p {
+  width: 200px;
+  border: black 1px solid;
+  margin: 2px;
+}
+
+/* flex-flow permite establecer simultaneamente las propiedades flex-direction y flex-wrap */
+.flexible8 {
+  display: flex;
+  flex-flow: row row-reverse wrap;
+  background-color: rgb(247, 186, 56);
+}
+.flexible8 p {
+  width: 200px;
+  border: black 1px solid;
+  margin: 2px;
+}
+
+.flexible9 {
+  display: flex;
+  flex-flow: wrap row-reverse;
+  background-color: rgb(231, 152, 138);
+}
+.flexible9 p {
+  width: 200px;
+  border: black 1px solid;
+  margin: 2px;
+}
+
+/* si queremos obtener el mismo resultado por separado */
+
+.flexible10 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  background-color: rgb(105, 158, 98);
+}
+.flexible10 p {
+  width: 200px;
+  border: black 1px solid;
+  margin: 2px;
+}

@@ -1,0 +1,56 @@
+* {
+  padding: 10px;
+}
+body {
+  background-color: rgb(242, 248, 191);
+}
+.contenedor {
+  background-color: rgb(49, 48, 44);
+  width: 980px;
+  height: 1400px;
+  margin: auto;
+}
+.name {
+  background-color: rgb(214, 189, 235);
+}
+.imagen {
+  background-color: rgb(224, 230, 230);
+  height: 330px;
+}
+
+img {
+  background-image: url("/img/zumire.jpg");
+  width: 300px;
+  height: 300px;
+}
+.aboutme {
+  background-color: rgb(242, 248, 191);
+  height: 330px;
+  width: 600px;
+  margin-left: 340px;
+  margin-top: -350px;
+}
+.datospersonales {
+  background-color: rgb(248, 221, 187);
+  height: 400px;
+  width: 465px;
+}
+.educacion {
+  background-color: rgb(224, 230, 230);
+  height: 400px;
+  width: 465px;
+  margin-left: 475px;
+  margin-top: -420px;
+}
+.habilidadespersonales {
+  background-color: rgb(224, 230, 230);
+  height: 400px;
+  width: 460px;
+}
+.habilidadesprofesionales {
+  background-color: rgb(242, 248, 191);
+  height: 400px;
+  width: 465px;
+  margin-left: 475px;
+  margin-top: -420px;
+}
