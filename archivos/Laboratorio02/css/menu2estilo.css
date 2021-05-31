@@ -6,15 +6,15 @@ ul{
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: aquamarine;
+    background-color: rgb(108, 238, 195);
     position: fixed;
 
     overflow: auto;
-    border: 1px solid #555;
+    border: 1px solid rgb(85, 85, 85);
 }
 li{
     text-align: center;
-    border:1px solid #555 ;
+    border:1px solid rgb(7, 7, 7) ;
 }
 
 li a{
@@ -28,7 +28,7 @@ li a.activo{
     color: black;
 }
 li a:hover:not(.activo){
-    background-color: rgb(82, 108, 194) ;
+    background-color: rgb(149, 211, 167) ;
     color: white;
 }
 .barra {
